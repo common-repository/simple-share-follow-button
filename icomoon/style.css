@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?djze59');
+  src:  url('fonts/icomoon.eot?djze59#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?djze59') format('truetype'),
+    url('fonts/icomoon.woff?djze59') format('woff'),
+    url('fonts/icomoon.svg?djze59#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hatebu_ssfb:before {
+  content: "\e902";
+}
+.icon-line_ssfb:before {
+  content: "\e903";
+}
+.icon-twitter_ssfb:before {
+  content: "\e904";
+}
+.icon-feedly_ssfb:before {
+  content: "\e900";
+}
+.icon-pocket_ssfb:before {
+  content: "\e901";
+}
+.icon-facebook_ssfb:before {
+  content: "\ea90";
+}
+.icon-instagram_ssfb:before {
+  content: "\ea92";
+}
+.icon-rss_ssfb:before {
+  content: "\ea9b";
+}
+.icon-youtube_ssfb:before {
+  content: "\ea9d";
+}
+.icon-github_ssfb:before {
+  content: "\eab0";
+}
+.icon-wordpress_ssfb:before {
+  content: "\eab4";
+}
+
+.twitter_ssfb { color: #000000;}
+.facebook_ssfb { color: #1877f2;}
+.instagram_ssfb { color: #CF2E92;}
+.youtube_ssfb { color: #ff0000;}
+.feedly_ssfb { color: #2BB24C;}
+.rss_ssfb { color: #ffa500;}
+.github_ssfb { color: #24292E;}
+.wordpress_ssfb { color: #2B98C5;}
+
+ul.ssfbShare {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul.ssfbShare li{
+	list-style: none;
+	margin-left: 1%;
+}
+
+ul.ssfbShare li a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	line-height: 42px;
+	letter-spacing: .05em;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+ul.ssfbShare li a.twitter_ssfb {background: #000000;}
+ul.ssfbShare li a.facebook_ssfb {background: #1877f2;}
+ul.ssfbShare li a.line_ssfb {background: #00b900;}
+ul.ssfbShare li a.pocket_ssfb {background: #ee4056;}
+ul.ssfbShare li a.hatena_ssfb {background: #00a4de;}
+ul.ssfbShare li a.rss_ssfb {background: #ffa500;}
+ul.ssfbShare li a.feedly_ssfb {background: #2BB24C;}
+ul.ssfbShare li a.instagram_ssfb {background: #CF2E92;}
+ul.ssfbShare li a.youtube_ssfb {background: #ff0000;}
+ul.ssfbShare li a.github_ssfb {background: #24292E;}
+ul.ssfbShare li a.wordpress_ssfb {background: #2B98C5;}
+
+ul.ssfbShare [class^="icon-"]:before,ul.ssfbShare [class*=" icon-"]:before {
+	margin-right: 5px;
+}
+
+ul.ssfbFollow {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.twitter_ssfbFollow { color: #000000; text-decoration: none; }
+.facebook_ssfbFollow { color: #1877f2; text-decoration: none; }
+.instagram_ssfbFollow { color: #CF2E92; text-decoration: none; }
+.youtube_ssfbFollow { color: #ff0000; text-decoration: none; }
+.feedly_ssfbFollow { color: #2BB24C; text-decoration: none; }
+.rss_ssfbFollow { color: #ffa500; text-decoration: none; }
+.github_ssfbFollow { color: #24292E; text-decoration: none; }
+.wordpress_ssfbFollow { color: #2B98C5; text-decoration: none; }
+
